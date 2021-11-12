@@ -7,7 +7,7 @@ const App: FC = () => {
 
   return (
     <div>
-      <h2>Welcome to vite-react-cil</h2>
+      <h2>Welcome to vite-react-cil11</h2>
     </div>
   );
 };
