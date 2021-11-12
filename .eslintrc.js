@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -23,7 +23,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended', 
+    'plugin:prettier/recommended',
   ],
   plugins: ['simple-import-sort', 'prettier'],
   rules: {
