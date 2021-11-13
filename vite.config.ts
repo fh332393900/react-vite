@@ -5,6 +5,6 @@ import cssOption from './config/style';
 export default defineConfig((configEnv) => {
   return {
     plugins: createVitePlugins(),
-    css: cssOption
+    css: cssOption,
   };
 });

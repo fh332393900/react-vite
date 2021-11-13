@@ -7,7 +7,6 @@ const proxy: Record<string, string | ProxyOptions> = {
     target: 'http://jsonplaceholder.typicode.com',
     changeOrigin: true,
     rewrite: (path) => path.replace(/^\/api/, ''),
-    // 更多请参看：https://cn.vitejs.dev/config/#server-proxy
   },
 };
 export default proxy;

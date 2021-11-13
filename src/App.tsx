@@ -1,5 +1,5 @@
-import React, { FC, useEffect } from "react";
-import "./app.css";
+import React, { FC, useEffect } from 'react';
+import './app.css';
 const App: FC = () => {
   useEffect(() => {
     console.log(`vite-react-cil`);

@@ -2,20 +2,20 @@ export const environmentVariable = () => {
   const env = import.meta.env.VITE_APP_ANT;
   let parps = null;
   switch (env) {
-    case "dev":
-      parps = "dev";
+    case 'dev':
+      parps = 'dev';
       break;
-    case "alpha":
-      parps = "alpha";
+    case 'alpha':
+      parps = 'alpha';
       break;
-    case "preprod":
-      parps = "preprod";
+    case 'preprod':
+      parps = 'preprod';
       break;
-    case "prod":
-      parps = "prod";
+    case 'prod':
+      parps = 'prod';
       break;
     default:
-      parps = "dev";
+      parps = 'dev';
       break;
   }
   return parps;
