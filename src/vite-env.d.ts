@@ -1,4 +1,5 @@
 // / <reference types="vite/client" />
-// interface ImportMetaEnv {
-//   VITE_APP_ANT: "dev" | "alpha" | "preprod" | "prod";
-// }
+// eslint-disable-next-line no-unused-vars
+interface ImportMetaEnv {
+  VITE_APP_ANT: 'dev' | 'alpha' | 'preprod' | 'prod';
+}
