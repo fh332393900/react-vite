@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react';
 import { Button } from 'antd';
-import './app.css';
+import './App.css';
 const App: FC = () => {
   interface Person {
     name: string;
