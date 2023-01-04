@@ -14,7 +14,7 @@ const App: FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className='home'>
       <h2>Welcome to vite-react-cil11</h2>
       <Button>测试webhook</Button>
     </div>
